@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=WDXL+Lubrifont+TC&display=swap');
+*{
+    margin: 0;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+}
+:root{
+    --primary-color: #091220;
+}
+/* Home CSS  */
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.home>.content{
+    /* background-color: aliceblue; */
+    height: 65%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.home>.explore-btn{
+    height: 10%;
+    width: 90%;
+    /* background-color: #ededed; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 6yz5knnh */
+/* classroom code for notes */
+
+
+
+
+/* Wrapper  */
+.home>.content>img{
+    height: 100%;
+    /* align-items: end; */
+}
+img{
+
+    right: 100px;
+}
+.home>.content>.text{
+    color: aliceblue;
+}
+
+.explore-btn>a{
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 16px 95px;
+    font-size: 2rem;
+    background-color: aliceblue;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+}
+.explore-btn>a:hover{
+    background-color: #f9bc06;
+    color: white;
+}
+.primary-heading{
+    font-size: 7rem;
+    color: aliceblue;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+/* WRAPPER  */
+.wrapper{
+    height: 400vh;
+    width: 100%;
+    background-color: #1b0541;
+}
+.headon{
+    position: sticky;
+    top: 0;
+    right: 0;
+    /* width: 100%; */
+    /* background-color: #1b0541; */
+    background: linear-gradient(#0a001b, #1c004c);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    /* display: none; */
+}
+.headon a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+.headon a:hover {
+    color: #f9bc06;
+}
+/* header>a:hover{
+    color: red;
+} */
+.container.about>img{
+    width: 40%;
+}
+.wrapper>.container{
+    /* height: 100vh;  */
+    min-height: 100vh;
+    height: 65%;
+    width: 100%;
+}
+.wrapper>.about{
+    height: 100vh;
+    width: 100%;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.container.about>.text{
+    color: aliceblue;
+    text-align: justify;
+}
+.wrapper>.service{
+    height: 100vh;
+    width: 100%;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
